@@ -1,2 +1,2 @@
-include ':app'
+include ':presentor'
 rootProject.name = "Olio"
