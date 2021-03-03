@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Olio.iml" filepath="$PROJECT_DIR$/.idea/modules/Olio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presenter/Olio.presenter.iml" filepath="$PROJECT_DIR$/.idea/modules/presenter/Olio.presenter.iml" />
-    </modules>
-  </component>
-</project>
