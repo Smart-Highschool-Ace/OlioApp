@@ -1,4 +1,4 @@
-package com.example.knowledgeoverflow.base
+package org.software.meister.gsm.olio.base
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

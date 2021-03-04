@@ -1,4 +1,4 @@
-package com.example.knowledgeoverflow.base
+package org.software.meister.gsm.olio.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
