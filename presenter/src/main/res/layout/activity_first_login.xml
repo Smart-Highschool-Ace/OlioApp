@@ -11,55 +11,58 @@
         android:id="@+id/text_welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to "
+        android:text="Welcome to"
         android:textColor="#000000"
         android:textSize="25dp"
         android:fontFamily="@font/first_login_font_update"
         android:layout_marginLeft="120dp"
-        android:layout_marginTop="145dp"
+        android:layout_marginTop="75dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
     <ImageView
-        android:layout_width="60dp"
+        android:id="@+id/img_olio"
+        android:layout_width="65dp"
         android:layout_height="60dp"
-        android:src="@drawable/olio_gradient"
-        android:layout_marginTop="137dp"
-        android:layout_marginLeft="255dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"/>
 
+        android:src="@drawable/olio_gradient"
+        android:layout_marginTop="67dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/text_welcome"
+        />
 
 
     <TextView
+        android:id="@+id/text_polio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="자기자신만의 포트폴리오를 채워나가보세요!"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintTop_toBottomOf="@id/text_welcome"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        />
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_welcome" />
 
     <ImageView
+        android:id="@+id/img_first_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
         android:src="@drawable/first_login_img_back"
-        android:layout_marginTop="255dp"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_polio"
+        app:layout_constraintTop_toTopOf="@id/text_polio" />
 
     <ImageView
         android:layout_width="45dp"
         android:layout_height="35dp"
         android:src="@drawable/ic_baseline_photo_camera_24"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="170dp"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_polio"
         app:layout_constraintLeft_toLeftOf="parent"
         />
 
@@ -69,22 +72,23 @@
         android:text="프로필 사진 추가"
         android:textSize="10dp"
         android:layout_marginLeft="172dp"
-        android:layout_marginTop="336dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="140dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_polio"
         app:layout_constraintLeft_toLeftOf="parent"
         />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/first_login_edit"
         android:layout_width="215dp"
         android:layout_height="40dp"
         android:layout_marginLeft="110dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="30dp"
         android:paddingLeft="20dp"
         android:hint="이름을 입력 하세요"
         android:textSize="12dp"
         android:backgroundTint="#F6F6F6"
         android:background="@drawable/first_login_edit_background"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_first_back"
         app:layout_constraintLeft_toLeftOf="parent">
     </com.google.android.material.textfield.TextInputEditText>
 
@@ -94,20 +98,21 @@
         android:backgroundTint="#F6F6F6"
         android:background="@drawable/first_login_edit_background"
         android:layout_marginLeft="110dp"
-        android:layout_marginTop="477dp"
+        android:layout_marginTop="15dp"
         android:dropDownWidth="200dp"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_login_edit"
         app:layout_constraintLeft_toLeftOf="parent"
         />
 
 
     <TextView
+        android:id="@+id/oneline_intro_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="한줄소개"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="80dp"
         android:layout_marginLeft="110dp"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_login_edit"
         app:layout_constraintLeft_toLeftOf="parent"
         />
     
@@ -115,15 +120,16 @@
         android:layout_width="230dp"
         android:layout_height="150dp"
         android:layout_marginLeft="110dp"
-        android:layout_marginTop="560dp"
         android:backgroundTint="#F6F6F6"
+        android:layout_marginTop="8dp"
         android:paddingBottom="100dp"
         android:paddingLeft="10dp"
         android:textSize="15dp"
         android:hint="내용을 입력하세요"
         android:background="@drawable/first_login_edit_background"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oneline_intro_text"
         app:layout_constraintLeft_toLeftOf="parent"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

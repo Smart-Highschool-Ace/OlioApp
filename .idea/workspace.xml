@@ -24,13 +24,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable-v24/olio_gradient.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="[CREATE]First_Login_Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_first_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_first_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register_acitvity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register_acitvity.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-19T14:10:23.097Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/presenter/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -164,6 +164,14 @@
       <option name="presentableId" value="Default" />
       <updated>1613567314407</updated>
     </task>
+    <task id="LOCAL-00001" summary="[CREATE]First_Login_Page">
+      <created>1614745611910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614745611910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +185,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[CREATE]First_Login_Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CREATE]First_Login_Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614681274322">
@@ -201,6 +213,10 @@
     </state>
     <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1614728154769" />
     <state x="436" y="211" key="AndroidCreateResourceFileDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888135251" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1614745735536">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1614745735536" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613888364726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,9 +241,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="65" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614745740260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614745740260" />
+    <state x="569" y="190" key="chooseDestDirectoryDialog" timestamp="1614813806862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="569" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1614813806862" />
     <state x="471" y="221" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1613743771296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="471" y="221" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/0.0.1536.824@0.0.1536.824" timestamp="1613743771296" />
+    <state x="570" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614745643476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1614745643476" />
+    <state x="494" y="199" key="git4idea.merge.GitPullDialog" timestamp="1614745699180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="494" y="199" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1614745699180" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1614753877443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1614753877443" />
   </component>
 </project>

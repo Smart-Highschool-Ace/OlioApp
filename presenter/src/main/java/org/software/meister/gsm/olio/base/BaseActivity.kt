@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import com.example.knowledgeoverflow.base.BaseViewModel
 import org.koin.androidx.viewmodel.compat.ScopeCompat.viewModel
+import org.koin.androidx.viewmodel.compat.ViewModelCompat.viewModel
 import org.software.meister.gsm.olio.BR
 import java.util.*
 
