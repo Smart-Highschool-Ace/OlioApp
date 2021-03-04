@@ -29,13 +29,13 @@
         app:layout_constraintRight_toRightOf="parent" />
 
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/email"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginTop="100dp"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sign_in_text">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -43,32 +43,28 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:backgroundTint="@color/white"
-            android:inputType="textEmailAddress"
-            android:layout_marginLeft="49dp"
             android:hint="E-mail 입력"
-        />
+            android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/pwd"
-            android:layout_width="match_parent"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/email"
-            >
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="270dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="49dp"
-                android:backgroundTint="@color/white"
-                android:hint="비밀번호"
-                android:inputType="textPassword"
-              />
+            android:backgroundTint="@color/white"
+            android:hint="비밀번호"
+            android:inputType="textPassword" />
 
 
-        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <CheckBox
         android:id="@+id/email_save"
@@ -102,12 +98,12 @@
         android:id="@+id/sign_in_btn"
         android:layout_width="288dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="65dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="#6DADA8"
         android:hint="Sign in"
         android:textColorHint="@color/white"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/found_pwd" />
 
     <TextView
