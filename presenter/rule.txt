@@ -1,0 +1,8 @@
+1. Activity 등 모든 요소에는 Base 를 상속하여 사용할 것 (바인딩은 필수) ( BaseActivity or BaseFragment or BaseDialog or BaseViewModel )
+예)
+class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>()
+
+2. Activity 나 Fragment 에는 항상 ViewModel 이 따르며 상황에 따라 Adapter 도 ViewModel 이 필요
+(SplashActivity 도 예외 X)
+
+3. onClick 등 모든 이벤트는 View 에서 감지하여 ViewModel 에서 처리 후 View 에서 그 값으로 변동을 준다

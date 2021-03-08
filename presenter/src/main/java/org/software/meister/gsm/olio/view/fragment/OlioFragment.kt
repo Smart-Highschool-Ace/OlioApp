@@ -8,14 +8,14 @@ import android.view.ViewGroup
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import org.software.meister.gsm.olio.R
 import org.software.meister.gsm.olio.base.BaseFragment
-import org.software.meister.gsm.olio.databinding.FragmentGuide3Binding
-import org.software.meister.gsm.olio.viewmodel.fragment.Guide3ViewModel
+import org.software.meister.gsm.olio.databinding.FragmentOlioBinding
+import org.software.meister.gsm.olio.viewmodel.fragment.OlioViewModel
 
-class GuideFragment3 : BaseFragment<FragmentGuide3Binding, Guide3ViewModel>() {
-    override val viewModel: Guide3ViewModel
-        get() = getViewModel(Guide3ViewModel::class)
+class OlioFragment : BaseFragment<FragmentOlioBinding, OlioViewModel>() {
+    override val viewModel: OlioViewModel
+        get() = getViewModel(OlioViewModel::class)
     override val resource: Int
-        get() = R.layout.fragment_guide3
+        get() = R.layout.fragment_olio
 
     override fun init() {
 
