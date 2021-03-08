@@ -1,4 +1,6 @@
 package org.software.meister.gsm.olio.viewmodel.activity
 
-class SplashViewModel {
+import org.software.meister.gsm.olio.base.BaseViewModel
+
+class SplashViewModel : BaseViewModel(){
 }

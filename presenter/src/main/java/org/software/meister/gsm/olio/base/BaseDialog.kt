@@ -13,7 +13,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
-import com.example.knowledgeoverflow.base.BaseViewModel
 import org.software.meister.gsm.olio.BR
 import org.software.meister.gsm.olio.widget.SingleLiveEvent
 

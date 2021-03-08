@@ -4,11 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
-import com.example.knowledgeoverflow.base.BaseViewModel
-import org.koin.androidx.viewmodel.compat.ScopeCompat.viewModel
-import org.koin.androidx.viewmodel.compat.ViewModelCompat.viewModel
 import org.software.meister.gsm.olio.BR
-import java.util.*
 
 abstract class BaseActivity <VM : BaseViewModel, VB : ViewDataBinding> : AppCompatActivity(){
 

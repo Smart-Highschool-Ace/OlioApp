@@ -1,4 +1,6 @@
 package org.software.meister.gsm.olio.viewmodel.activity
 
-class MainViewModel {
+import org.software.meister.gsm.olio.base.BaseViewModel
+
+class MainViewModel : BaseViewModel(){
 }

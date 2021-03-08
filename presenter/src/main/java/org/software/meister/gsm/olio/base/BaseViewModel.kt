@@ -3,7 +3,6 @@ package org.software.meister.gsm.olio.base
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import org.software.meister.gsm.olio.widget.SingleLiveEvent
 
 open class BaseViewModel : ViewModel() {
 

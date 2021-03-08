@@ -25,17 +25,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/SearchFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable-v24/ic_olio_bell_alarm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable-v24/ic_olio_bell_no_alarm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_main_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/myModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/FirstLoginViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/RegisterViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/Guide2ViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/Guide3ViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/SearchViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/MyApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/extention/ActivityExtention.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/extention/FragmentExtention.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/object/SharedPreferencesManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseDialog.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/base/BaseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/RegisterAcitvity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/RegisterActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/mymodule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/FirstLoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/FirstLoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/GuideViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/GuideViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/SplashViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/SplashViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/Guide1ViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/Guide1ViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_first_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_first_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register_acitvity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register_acitvity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_guide1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_guide1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_guide2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_guide2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_guide3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_guide3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +75,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="resourceFile" />
         <option value="valueResourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -73,27 +96,32 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/presenter/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/presenter/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.1719512632">
       <recent name="org.software.meister.gsm.olio.view.activity" />
       <recent name="org.software.meister.gsm.olio" />
     </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="org.software.meister.gsm.olio.viewmodel.activity" />
-      <recent name="org.software.meister.gsm.olio.view.activity" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable-v24" />
-      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
-      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\base" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
       <recent name="C:\Users\s2000\AndroidStudioProjects\OlioApp\presenter\src\main\res\drawable-v24" />
       <recent name="C:\Users\s2000\AndroidStudioProjects\OlioApp\presenter\src\main\res\font" />
       <recent name="C:\Users\s2000\AndroidStudioProjects\Olio\presenter\src\main\res\drawable-v24" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.software.meister.gsm.olio.viewmodel.activity" />
+      <recent name="org.software.meister.gsm.olio.view.activity" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.software.meister.gsm.olio.widget" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\widget" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\di" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable-v24" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\base" />
     </key>
   </component>
   <component name="RunManager">
@@ -188,6 +216,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="756" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1615172064540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615172064540" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614681274322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,14 +237,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="167" key="AndroidCreateResourceDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1614643947843" />
-    <state x="349" y="167" key="AndroidCreateResourceFileDialog" timestamp="1614728154769">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1614728154769" />
-    <state x="436" y="211" key="AndroidCreateResourceFileDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888135251" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613888364726">
+    <state x="436" y="211" key="AndroidCreateResourceFileDialog" timestamp="1614923292875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1614728154769" />
+    <state x="436" y="211" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614923292875" />
+    <state x="436" y="211" key="AndroidCreateResourceFileDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888135251" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615171546355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615171546355" />
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888364726" />
     <state x="722" y="225" key="Github.ShareDialog" timestamp="1613746219486">
       <screen x="0" y="0" width="1536" height="824" />
