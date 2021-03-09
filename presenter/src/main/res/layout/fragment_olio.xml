@@ -10,7 +10,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="510dp"
+        android:layout_height="520dp"
         tools:context=".view.fragment.OlioFragment">
 
         <LinearLayout

@@ -25,25 +25,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/presenter/rule.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/PageFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/PageViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_switch_tack_selector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_switch_thumb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_switch_track_on.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable-v24/ic_olio_page_envelope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable-v24/ic_olio_star_follow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable-v24/ic_olio_star_no_follow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_page_button_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_page_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_page_people.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/GuideActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/GuideActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/RegisterActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/GuideFragment1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/GuideFragment1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/GuideFragment3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/GuideFragment3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/SearchFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/OlioFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/SearchViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/OlioViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_olio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_olio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_olio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_page.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +53,8 @@
       <list>
         <option value="Kotlin File" />
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
         <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -80,33 +72,33 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-19T14:10:23.097Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/presenter/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/presenter/src/main/res/drawable-v24" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/presenter/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/presenter/src/main/res/drawable" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.1719512632">
       <recent name="org.software.meister.gsm.olio.view.activity" />
       <recent name="org.software.meister.gsm.olio" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.software.meister.gsm.olio.viewmodel.activity" />
+      <recent name="org.software.meister.gsm.olio.view.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable-v24" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\widget" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\di" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\base" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.software.meister.gsm.olio.widget" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
       <recent name="C:\Users\s2000\AndroidStudioProjects\OlioApp\presenter\src\main\res\drawable-v24" />
       <recent name="C:\Users\s2000\AndroidStudioProjects\OlioApp\presenter\src\main\res\font" />
       <recent name="C:\Users\s2000\AndroidStudioProjects\Olio\presenter\src\main\res\drawable-v24" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="org.software.meister.gsm.olio.viewmodel.activity" />
-      <recent name="org.software.meister.gsm.olio.view.activity" />
-    </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="org.software.meister.gsm.olio.widget" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable-v24" />
-      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\widget" />
-      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\di" />
-      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
-      <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\base" />
     </key>
   </component>
   <component name="RunManager">
@@ -222,41 +214,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="167" key="AndroidCreateResourceDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1614643947843" />
-    <state x="436" y="211" key="AndroidCreateResourceFileDialog" timestamp="1615179752008">
+    <state x="436" y="211" key="AndroidCreateResourceFileDialog" timestamp="1615260069832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1614728154769" />
-    <state x="436" y="211" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615179752008" />
+    <state x="436" y="211" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615260069832" />
     <state x="436" y="211" key="AndroidCreateResourceFileDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888135251" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615171546355">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615181907998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615171546355" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615181907998" />
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888364726" />
     <state x="722" y="225" key="Github.ShareDialog" timestamp="1613746219486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="225" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1613746219486" />
-    <state width="1491" height="65" key="GridCell.Tab.0.bottom" timestamp="1613743392810">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="65" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
-    <state width="1491" height="65" key="GridCell.Tab.0.center" timestamp="1613743392810">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="65" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
-    <state width="1491" height="65" key="GridCell.Tab.0.left" timestamp="1613743392810">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="65" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
-    <state width="1491" height="65" key="GridCell.Tab.0.right" timestamp="1613743392810">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="65" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
-    <state x="761" y="297" key="chooseDestDirectoryDialog" timestamp="1615179577323">
+    <state width="1859" height="279" key="GridCell.Tab.0.bottom" timestamp="1615185114390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615179577323" />
+    <state width="1491" height="65" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
+    <state width="1859" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615185114390" />
+    <state width="1859" height="279" key="GridCell.Tab.0.center" timestamp="1615185114390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1491" height="65" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
+    <state width="1859" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615185114390" />
+    <state width="1859" height="279" key="GridCell.Tab.0.left" timestamp="1615185114390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1491" height="65" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
+    <state width="1859" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615185114390" />
+    <state width="1859" height="279" key="GridCell.Tab.0.right" timestamp="1615185114390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1491" height="65" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613743392810" />
+    <state width="1859" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615185114390" />
+    <state x="761" y="297" key="chooseDestDirectoryDialog" timestamp="1615272065008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615272065008" />
     <state x="471" y="221" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1613743771296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
