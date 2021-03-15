@@ -34,7 +34,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:thumb="@drawable/ic_olio_switch_thumb"
-                android:track="@drawable/ic_olio_switch_tack_selector" />
+                android:track="@drawable/ic_olio_switch_tack_selector"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"/>
 
             <TextView
                 android:id="@+id/textView3"
