@@ -64,8 +64,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:fontFamily="@font/first_login_font"
             android:layout_marginTop="30dp"
-            android:text="검색 결과"
+            android:text="검색결과"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="24dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -75,6 +79,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="16dp"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold"
             android:text="총(n)건"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/project_result" />

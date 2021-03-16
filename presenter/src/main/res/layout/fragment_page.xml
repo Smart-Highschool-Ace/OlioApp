@@ -16,7 +16,7 @@
 
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/circleImageView"
+            android:id="@+id/page_profile_photo"
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_marginStart="30dp"
@@ -26,7 +26,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button3"
+            android:id="@+id/page_profile_edit"
             android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="110dp"
@@ -37,17 +37,17 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
-            android:id="@+id/linearLayout4"
+            android:id="@+id/page_profile_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginTop="22dp"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/circleImageView">
+            app:layout_constraintTop_toBottomOf="@+id/page_profile_photo">
 
             <TextView
-                android:id="@+id/name_user"
+                android:id="@+id/page_name_user"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -57,7 +57,7 @@
                 android:textStyle="bold"/>
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/page_user_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
@@ -74,7 +74,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/page_profile_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -84,10 +84,10 @@
             android:textSize="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+            app:layout_constraintTop_toBottomOf="@+id/page_profile_user" />
 
         <LinearLayout
-            android:id="@+id/linearLayout5"
+            android:id="@+id/page_profile_link_linear"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -96,16 +96,16 @@
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12">
+            app:layout_constraintTop_toBottomOf="@+id/page_profile_text">
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/page_profile_link_image"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/ic_olio_page_link" />
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/page_profile_link_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
@@ -114,7 +114,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayout6"
+            android:id="@+id/page_profile_email_linear"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -122,16 +122,16 @@
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+            app:layout_constraintTop_toBottomOf="@+id/page_profile_link_linear">
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/page_profile_email_image"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/ic_olio_page_envelope" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/page_profile_email_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
@@ -140,7 +140,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayout7"
+            android:id="@+id/page_profile_follow_linear"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginStart="30dp"
@@ -148,16 +148,16 @@
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+            app:layout_constraintTop_toBottomOf="@+id/page_profile_email_linear">
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/page_profile_follow_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/ic_olio_page_people" />
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/page_profile_follow_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -166,14 +166,14 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/page_profile_follow_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:text="팔로우" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/page_profile_following_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
@@ -182,7 +182,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/page_profile_following_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -190,7 +190,7 @@
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button4"
+            android:id="@+id/page_profile_add_button"
             android:layout_width="40dp"
             android:layout_height="15dp"
             android:layout_marginTop="12dp"
@@ -200,10 +200,10 @@
             android:textColor="#000000"
             android:textSize="12dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout7" />
+            app:layout_constraintTop_toBottomOf="@+id/page_profile_follow_linear" />
 
         <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tabLayout2"
+            android:id="@+id/page_profile_tab_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -213,7 +213,7 @@
             app:tabIndicatorColor="#00ff0000"
             app:tabTextColor="#c4c4c4"
             app:tabSelectedTextColor="#000000"
-            app:layout_constraintTop_toBottomOf="@+id/button4">
+            app:layout_constraintTop_toBottomOf="@+id/page_profile_add_button">
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
@@ -243,10 +243,10 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+            app:layout_constraintTop_toBottomOf="@+id/page_guide_line" />
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/page_guide_line"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginStart="30dp"
@@ -254,7 +254,7 @@
             android:background="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tabLayout2" />
+            app:layout_constraintTop_toBottomOf="@+id/page_profile_tab_layout" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
