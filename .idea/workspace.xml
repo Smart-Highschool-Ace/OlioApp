@@ -25,15 +25,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/ProjectPageFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/ProjectPageViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_page_button_follow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_page_button_unfollow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_project_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/stack/AwardFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/stack/LicenseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/stack/SkillFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/stack/StackProjectFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/stack/AwardViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/stack/LicenseViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/stack/SkillViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/fragment/stack/StackProjectViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_award.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_license.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_skill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_stack_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_portfolio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_portfolio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/fragment_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/FirstLoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/FirstLoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/GuideFragment2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/fragment/GuideFragment2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +57,8 @@
       <list>
         <option value="Kotlin File" />
         <option value="valueResourceFile" />
-        <option value="Kotlin Class" />
         <option value="resourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -191,10 +197,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="756" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1615858614868">
+    <state x="756" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1615961357083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="756" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615858614868" />
+    <state x="756" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615961357083" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614681274322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -218,10 +224,10 @@
     <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1614728154769" />
     <state x="436" y="211" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615874163732" />
     <state x="436" y="211" key="AndroidCreateResourceFileDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888135251" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615903269871">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615958060615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615903269871" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615958060615" />
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888364726" />
     <state x="722" y="225" key="Github.ShareDialog" timestamp="1613746219486">
       <screen x="0" y="0" width="1536" height="824" />

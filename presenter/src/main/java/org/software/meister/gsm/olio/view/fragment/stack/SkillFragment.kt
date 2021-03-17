@@ -1,4 +1,4 @@
-package org.software.meister.gsm.olio.view.fragment
+package org.software.meister.gsm.olio.view.fragment.stack
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,14 +8,14 @@ import android.view.ViewGroup
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 import org.software.meister.gsm.olio.R
 import org.software.meister.gsm.olio.base.BaseFragment
-import org.software.meister.gsm.olio.databinding.FragmentGuide2Binding
-import org.software.meister.gsm.olio.viewmodel.fragment.Guide2ViewModel
+import org.software.meister.gsm.olio.databinding.FragmentSkillBinding
+import org.software.meister.gsm.olio.viewmodel.fragment.stack.SkillViewModel
 
-class GuideFragment2 : BaseFragment<FragmentGuide2Binding, Guide2ViewModel>() {
-    override val viewModel: Guide2ViewModel
-        get() = getViewModel(Guide2ViewModel::class)
+class SkillFragment : BaseFragment<FragmentSkillBinding, SkillViewModel>() {
+    override val viewModel: SkillViewModel
+        get() = getViewModel(SkillViewModel::class)
     override val resource: Int
-        get() = R.layout.fragment_guide2
+        get() = R.layout.fragment_skill
 
     override fun init() {
 
@@ -24,4 +24,5 @@ class GuideFragment2 : BaseFragment<FragmentGuide2Binding, Guide2ViewModel>() {
     override fun observerViewModel() {
 
     }
+
 }

@@ -15,10 +15,10 @@ class FirstLoginActivity : BaseActivity<FirstLoginViewModel, ActivityFirstLoginB
         get() = getViewModel(FirstLoginViewModel::class)
 
     override fun init() {
-        TODO("Not yet implemented")
+
     }
 
     override fun observerViewModel() {
-        TODO("Not yet implemented")
+
     }
 }
