@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <import type="android.view.View"/>
         <variable
             name="viewModel"
             type="org.software.meister.gsm.olio.viewmodel.activity.MainViewModel" />
@@ -50,7 +51,9 @@
                 android:id="@+id/profile_photo"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/first_login_img_back" />
+                android:background="@drawable/first_login_img_back"
+                android:visibility="@{viewModel.profile ? View.VISIBLE : View.GONE}"
+                android:onClick="@{() -> viewModel.showProfile()}"/>
         </LinearLayout>
 
         <androidx.appcompat.widget.SearchView

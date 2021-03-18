@@ -55,7 +55,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
-            android:text="검색 결과"
+            android:text="검색결과"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,6 +68,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="16dp"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold"
             android:text="총(n)건"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/port_result" />

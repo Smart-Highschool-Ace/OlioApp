@@ -1,5 +1,6 @@
 package org.software.meister.gsm.olio.view.fragment
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -25,10 +26,13 @@ class OlioFragment : BaseFragment<FragmentOlioBinding, OlioViewModel>() {
         with(viewModel){
             isChecked.observe(this@OlioFragment,{
                 if(it){
-
                     childFragmentManager.beginTransaction().replace(R.id.port_or_project_fragment, ProjectFragment()).commit()
+                    binding.olioTextPortfolio.setTextColor(Color.parseColor("#000000"))
+                    binding.olioTextProject.setTextColor(Color.parseColor("#5A948B"))
                 } else {
                     childFragmentManager.beginTransaction().replace(R.id.port_or_project_fragment, PortfolioFragment()).commit()
+                    binding.olioTextProject.setTextColor(Color.parseColor("#000000"))
+                    binding.olioTextPortfolio.setTextColor(Color.parseColor("#5A948B"))
                 }
             })
         }
