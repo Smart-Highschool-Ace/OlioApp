@@ -4,6 +4,7 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 import org.software.meister.gsm.olio.R
 import org.software.meister.gsm.olio.base.BaseActivity
 import org.software.meister.gsm.olio.databinding.ActivityMainBinding
+import org.software.meister.gsm.olio.view.fragment.OlioFragment
 import org.software.meister.gsm.olio.viewmodel.activity.MainViewModel
 
 class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>() {
@@ -13,7 +14,7 @@ class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>() {
         get() = getViewModel(MainViewModel::class)
 
     override fun init() {
-
+        supportFragmentManager.beginTransaction().add(R.id.fragment_container, OlioFragment()).commit()
     }
 
     override fun observerViewModel() {

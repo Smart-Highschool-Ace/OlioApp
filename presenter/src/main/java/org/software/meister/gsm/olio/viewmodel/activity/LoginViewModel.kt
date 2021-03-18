@@ -14,6 +14,7 @@ class LoginViewModel : BaseViewModel() {
     val onFailureEvent = SingleLiveEvent<Unit>()
     val onRegisterEvent = SingleLiveEvent<Unit>()
     val onSignInEvent = SingleLiveEvent<Unit>()
+    val onFindPasswordEvent = SingleLiveEvent<Unit>()
 
     //region 로그인 이벤트
     fun signIn(){
@@ -26,5 +27,9 @@ class LoginViewModel : BaseViewModel() {
 
     fun goRegister(){
         onRegisterEvent.call()
+    }
+
+    fun goFindPassword(){
+        onFindPasswordEvent.call()
     }
 }

@@ -37,6 +37,9 @@ class LoginActivity : BaseActivity<LoginViewModel, ActivityLoginBinding>() {
             onSignInEvent.observe(this@LoginActivity, {
                 showLoginDialog()
             })
+            onFindPasswordEvent.observe(this@LoginActivity, {
+
+            })
         }
     }
 

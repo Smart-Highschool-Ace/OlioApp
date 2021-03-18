@@ -23,9 +23,10 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/olio_text_portfolio"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:textColor="#5A948B"
                 android:gravity="center"
                 android:text="Portfolio" />
 
@@ -33,20 +34,24 @@
                 android:id="@+id/switch1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:thumb="@drawable/ic_olio_switch_thumb"
-                android:track="@drawable/ic_olio_switch_tack_selector"
                 android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"/>
+                android:layout_marginEnd="6dp"
+                android:checked="@={viewModel.isChecked()}"
+                android:padding="5dp"
+                android:thumb="@drawable/ic_olio_switch_thumb"
+                android:track="@drawable/ic_olio_switch_tack_selector" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/olio_text_project"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:textColor="#000000"
                 android:gravity="center"
                 android:text="Project" />
         </LinearLayout>
 
         <FrameLayout
+            android:id="@+id/port_or_project_fragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"

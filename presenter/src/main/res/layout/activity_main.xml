@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/main_logo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ic_olio_main_logo" />
@@ -68,6 +68,7 @@
             app:queryHint="Search" />
 
         <FrameLayout
+            android:id="@+id/fragment_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="30dp"

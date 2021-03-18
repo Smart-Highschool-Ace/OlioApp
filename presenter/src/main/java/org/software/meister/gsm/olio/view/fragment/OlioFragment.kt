@@ -18,11 +18,20 @@ class OlioFragment : BaseFragment<FragmentOlioBinding, OlioViewModel>() {
         get() = R.layout.fragment_olio
 
     override fun init() {
-
+        childFragmentManager.beginTransaction().replace(R.id.port_or_project_fragment, PortfolioFragment()).commit()
     }
 
     override fun observerViewModel() {
+        with(viewModel){
+            isChecked.observe(this@OlioFragment,{
+                if(it){
 
+                    childFragmentManager.beginTransaction().replace(R.id.port_or_project_fragment, ProjectFragment()).commit()
+                } else {
+                    childFragmentManager.beginTransaction().replace(R.id.port_or_project_fragment, PortfolioFragment()).commit()
+                }
+            })
+        }
     }
 
 }
