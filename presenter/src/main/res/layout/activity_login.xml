@@ -52,6 +52,7 @@
                 android:layout_gravity="left"
                 android:backgroundTint="@color/white"
                 android:hint="E-mail 입력"
+                android:text="@={viewModel.email}"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -69,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
                 android:hint="비밀번호"
+                android:text="@={viewModel.password}"
                 android:inputType="textPassword" />
 
 
@@ -80,6 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="49dp"
             android:layout_marginTop="2dp"
+            android:checked="@={viewModel.isRemainEmail}"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pwd" />
 
@@ -109,6 +112,7 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="#6DADA8"
             android:hint="Sign in"
+            android:onClick="@{() -> viewModel.signIn()}"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -122,7 +126,7 @@
             android:text="아직 계정이 없으신가요?"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sign_in_btn"
-            />
+            android:onClick="@{() -> viewModel.goRegister()}"/>
 
 
         <ImageView

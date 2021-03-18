@@ -23,7 +23,6 @@ abstract class BaseFragment<VB: ViewDataBinding, VM : BaseViewModel> : Fragment(
     protected abstract fun observerViewModel()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-
         binding = DataBindingUtil.inflate(inflater, resource, container, false)
         return binding.root
     }

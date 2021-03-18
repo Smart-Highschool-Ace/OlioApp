@@ -1,4 +1,4 @@
-package com.example.knowledgeoverflow.widget.extention
+package org.software.meister.gsm.olio.widget.extention
 
 import android.content.Context
 import android.content.Intent
