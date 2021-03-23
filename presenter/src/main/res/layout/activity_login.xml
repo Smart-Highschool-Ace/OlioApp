@@ -40,7 +40,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -52,8 +52,8 @@
                 android:layout_gravity="left"
                 android:backgroundTint="@color/white"
                 android:hint="E-mail 입력"
-                android:text="@={viewModel.email}"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:text="@={viewModel.email}" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -109,7 +109,7 @@
             android:id="@+id/sign_in_btn"
             android:layout_width="288dp"
             android:layout_height="60dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="44dp"
             android:backgroundTint="#6DADA8"
             android:hint="Sign in"
             android:onClick="@{() -> viewModel.signIn()}"
