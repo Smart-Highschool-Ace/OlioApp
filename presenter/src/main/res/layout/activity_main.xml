@@ -53,9 +53,8 @@
                 android:id="@+id/profile_photo"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/first_login_img_back"
-                android:visibility="@{viewModel.profile ? View.VISIBLE : View.GONE}"
-                android:onClick="@{() -> viewModel.showProfile()}"/>
+                android:onClick="@{() -> viewModel.showProfile()}"
+                android:visibility="@{viewModel.profile ? View.VISIBLE : View.GONE}" />
         </LinearLayout>
 
         <androidx.appcompat.widget.SearchView

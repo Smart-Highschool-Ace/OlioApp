@@ -56,7 +56,7 @@ class LoginActivity : BaseActivity<LoginViewModel, ActivityLoginBinding>() {
         successDialog.setCancelable(false)
         successDialog.setConfirmClickListener {
             successDialog.dismiss()
-            startActivityWithFinish(this@LoginActivity, MainActivity::class.java)
+            startActivityWithFinish(this@LoginActivity, GuideActivity::class.java)
         }
         successDialog.show()
     }
