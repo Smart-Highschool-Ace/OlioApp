@@ -16,11 +16,10 @@
         tools:context=".view.activity.MainActivity">
 
 
-
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:layout_marginStart="26dp"
             android:layout_marginTop="68dp"
             android:layout_marginEnd="26dp"
@@ -43,8 +42,8 @@
 
             <ImageView
                 android:id="@+id/alarm_image"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:layout_gravity="center"
                 android:layout_marginEnd="10dp"
                 android:background="@drawable/ic_olio_bell_no_alarm" />
@@ -74,7 +73,7 @@
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="520dp"
             android:layout_marginTop="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

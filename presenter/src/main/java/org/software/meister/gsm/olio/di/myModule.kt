@@ -5,8 +5,9 @@ import org.koin.dsl.module
 import org.software.meister.gsm.olio.viewmodel.activity.*
 import org.software.meister.gsm.olio.viewmodel.fragment.*
 import org.software.meister.gsm.olio.viewmodel.fragment.stack.*
+import org.software.meister.gsm.olio.widget.recyclerview.viewmodel.*
 
-val myModule = module{
+val viewModels = module{
     viewModel { SplashViewModel() }
     viewModel { RegisterViewModel() }
     viewModel { LoginViewModel() }
@@ -25,4 +26,9 @@ val myModule = module{
     viewModel { PortfolioViewModel() }
     viewModel { ProjectPageViewModel() }
     viewModel { ProjectVIewModel() }
+    viewModel { ItemPageStackViewModel() }
+    viewModel { ItemPageAwardViewModel() }
+    viewModel { ItemPortfolioViewModel() }
+    viewModel { ItemPageProjectViewModel() }
+    viewModel { ItemProjectViewModel() }
 }

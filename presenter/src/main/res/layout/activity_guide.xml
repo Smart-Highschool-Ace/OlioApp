@@ -60,7 +60,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:onClick="@{() -> viewModel.skip()}"/>
+                android:onClick="@{() -> viewModel.next()}"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -83,6 +83,7 @@
                 android:background="#00ff0000"
                 android:gravity="right|center_vertical"
                 android:text="Skip"
+                android:onClick="@{() -> viewModel.skip()}"
                 android:textAllCaps="false"
                 android:textColor="#5A948B"
                 android:textSize="20dp" />

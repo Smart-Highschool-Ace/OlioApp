@@ -5,6 +5,7 @@ import org.software.meister.gsm.olio.R
 import org.software.meister.gsm.olio.base.BaseActivity
 import org.software.meister.gsm.olio.databinding.ActivityFirstLoginBinding
 import org.software.meister.gsm.olio.viewmodel.activity.FirstLoginViewModel
+import org.software.meister.gsm.olio.widget.extention.startActivityWithFinish
 
 class FirstLoginActivity : BaseActivity<FirstLoginViewModel, ActivityFirstLoginBinding>() {
     override val resource: Int
@@ -17,6 +18,10 @@ class FirstLoginActivity : BaseActivity<FirstLoginViewModel, ActivityFirstLoginB
     }
 
     override fun observerViewModel() {
-
+        with(viewModel){
+            onMainEvent.observe(this@FirstLoginActivity, {
+                startActivityWithFinish(this@FirstLoginActivity, MainActivity::class.java)
+            })
+        }
     }
 }

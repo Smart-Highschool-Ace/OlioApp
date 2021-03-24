@@ -3,7 +3,7 @@ package org.software.meister.gsm.olio.widget
 import android.app.Application
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
-import org.software.meister.gsm.olio.di.myModule
+import org.software.meister.gsm.olio.di.viewModels
 
 class MyApplication : Application() {
     override fun onCreate() {
@@ -11,7 +11,7 @@ class MyApplication : Application() {
 
         startKoin{
             androidContext(this@MyApplication)
-            val modules = listOf(myModule)
+            val modules = listOf(viewModels)
             modules(modules)
         }
     }

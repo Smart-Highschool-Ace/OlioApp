@@ -117,10 +117,11 @@
             app:layout_constraintTop_toBottomOf="@+id/oneline_intro_text" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button2"
+            android:id="@+id/first_login_main"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="52dp"
+            android:onClick="@{() -> viewModel.goMain()}"
             android:layout_marginBottom="80dp"
             android:background="@drawable/ic_olio_guide_next"
             app:layout_constraintBottom_toBottomOf="parent"
