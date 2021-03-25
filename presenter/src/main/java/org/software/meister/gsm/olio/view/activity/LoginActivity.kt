@@ -32,7 +32,7 @@ class LoginActivity : BaseActivity<LoginViewModel, ActivityLoginBinding>() {
                 showSuccessDialog()
             })
             onRegisterEvent.observe(this@LoginActivity, {
-                startActivity(this@LoginActivity, RegisterActivity::class.java)
+                startActivityWithFinish(this@LoginActivity, RegisterActivity::class.java)
             })
             onSignInEvent.observe(this@LoginActivity, {
                 showLoginDialog()
@@ -56,7 +56,7 @@ class LoginActivity : BaseActivity<LoginViewModel, ActivityLoginBinding>() {
         successDialog.setCancelable(false)
         successDialog.setConfirmClickListener {
             successDialog.dismiss()
-            startActivityWithFinish(this@LoginActivity, GuideActivity::class.java)
+            startActivityWithFinish(this@LoginActivity, MainActivity::class.java)
         }
         successDialog.show()
     }

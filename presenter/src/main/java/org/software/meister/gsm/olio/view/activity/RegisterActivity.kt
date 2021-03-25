@@ -7,6 +7,7 @@ import org.software.meister.gsm.olio.R
 import org.software.meister.gsm.olio.base.BaseActivity
 import org.software.meister.gsm.olio.databinding.ActivityRegisterBinding
 import org.software.meister.gsm.olio.viewmodel.activity.RegisterViewModel
+import org.software.meister.gsm.olio.widget.extention.startActivityWithFinish
 
 class RegisterActivity : BaseActivity<RegisterViewModel, ActivityRegisterBinding>() {
     override val resource: Int
@@ -25,7 +26,7 @@ class RegisterActivity : BaseActivity<RegisterViewModel, ActivityRegisterBinding
     override fun observerViewModel() {
         with(viewModel){
             onGoSignUpEvent.observe(this@RegisterActivity, {
-                finish()
+                startActivityWithFinish(this@RegisterActivity, LoginActivity::class.java)
             })
             onSuccessEvent.observe(this@RegisterActivity, {
                 registerDialog.dismiss()
@@ -38,7 +39,6 @@ class RegisterActivity : BaseActivity<RegisterViewModel, ActivityRegisterBinding
     }
 
     private fun showLoadingDialog(){
-
         registerDialog.progressHelper.barColor = Color.parseColor("#5A948B")
         registerDialog.setTitleText("회원가입 중")
                 .setCancelable(false)
@@ -51,7 +51,7 @@ class RegisterActivity : BaseActivity<RegisterViewModel, ActivityRegisterBinding
         successDialog.setCancelable(false)
         successDialog.setConfirmClickListener {
             successDialog.dismiss()
-            finish()
+            startActivityWithFinish(this@RegisterActivity, GuideActivity::class.java)
         }
         successDialog.show()
     }
