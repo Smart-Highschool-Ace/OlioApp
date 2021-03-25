@@ -5,5 +5,5 @@ import org.software.meister.gsm.olio.base.BaseViewModel
 
 class ItemPageStackViewModel : BaseViewModel() {
     val stackName = MutableLiveData<String>()
-    val stackProficiency = MutableLiveData<Int>()
+    var stackProficiency : Int = 0
 }

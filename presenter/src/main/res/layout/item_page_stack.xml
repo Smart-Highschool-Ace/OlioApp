@@ -37,19 +37,21 @@
             app:layout_constraintStart_toEndOf="@+id/item_page_stack_image"
             app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/item_page_stack_name"
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progressView1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@={viewModel.stackName}" />
-
-            <ProgressBar
-                android:id="@+id/item_page_stack_proficiency"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:max="100"
-                android:progressDrawable="@drawable/ic_olio_progressbar_background" />
+                android:layout_height="35dp"
+                app:progressView_colorBackground="@color/white"
+                app:progressView_max="100"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_radius="12dp"
+                app:progressView_padding="1dp"
+                app:progressView_labelColorInner="@color/white"
+                app:progressView_labelColorOuter="@color/black"
+                app:progressView_labelSize="13sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelTypeface="bold"/>
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
