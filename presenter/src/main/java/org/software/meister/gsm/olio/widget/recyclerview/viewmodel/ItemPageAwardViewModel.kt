@@ -10,7 +10,7 @@ class ItemPageAwardViewModel : BaseViewModel() {
 
     fun bind(item : Award){
         awardName.value = item.name
-        awardComment.value = item.comment
+        awardComment.value = item.institution
     }
 
 }

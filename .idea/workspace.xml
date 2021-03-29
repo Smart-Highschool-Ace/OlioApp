@@ -28,23 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/Certificate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/Skill.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/portfolio/Portfolio.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/portfolio/PortfolioProject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/portfolio/PortfolioSkill.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/project/Project.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/project/ProjectField.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/project/ProjectImage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/project/ProjectMember.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/adapter/ProjectAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/res/drawable/ic_olio_duplicated_button.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/Award.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/network/dto/Award.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/viewmodel/ItemPageAwardViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/viewmodel/ItemPageAwardViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/viewmodel/ItemProjectViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/viewmodel/ItemProjectViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
