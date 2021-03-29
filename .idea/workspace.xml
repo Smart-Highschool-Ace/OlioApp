@@ -28,9 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/dialog/EmailModalDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/dialog/EmailModalViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/viewmodel/ItemPageAwardViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/viewmodel/ItemPageAwardViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/viewmodel/ItemProjectViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/recyclerview/viewmodel/ItemProjectViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/myModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/myModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/dialog_email_modal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/dialog_email_modal.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +53,8 @@
         <option value="Kotlin Interface" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>

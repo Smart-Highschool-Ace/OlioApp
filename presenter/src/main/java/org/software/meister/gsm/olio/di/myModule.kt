@@ -3,6 +3,7 @@ package org.software.meister.gsm.olio.di
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 import org.software.meister.gsm.olio.viewmodel.activity.*
+import org.software.meister.gsm.olio.viewmodel.dialog.EmailModalViewModel
 import org.software.meister.gsm.olio.viewmodel.fragment.*
 import org.software.meister.gsm.olio.viewmodel.fragment.stack.*
 import org.software.meister.gsm.olio.widget.recyclerview.viewmodel.*
@@ -31,4 +32,5 @@ val viewModels = module{
     viewModel { ItemPortfolioViewModel() }
     viewModel { ItemPageProjectViewModel() }
     viewModel { ItemProjectViewModel() }
+    viewModel { EmailModalViewModel() }
 }
