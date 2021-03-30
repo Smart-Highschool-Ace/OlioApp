@@ -103,6 +103,7 @@
             android:orientation="horizontal">
 
             <EditText
+                android:inputType="number"
                 android:layout_weight="2"
                 android:id="@+id/email_code_edit1"
                 android:layout_width="42dp"
@@ -112,6 +113,7 @@
                 />
 
             <EditText
+                android:inputType="number"
                 android:layout_weight="2"
                 android:id="@+id/email_code_edit2"
                 android:layout_width="42dp"
@@ -123,6 +125,7 @@
                 android:layout_marginLeft="6.74dp"
                 />
             <EditText
+                android:inputType="number"
                 android:layout_weight="2"
                 android:id="@+id/email_code_edit3"
                 android:layout_width="42dp"
@@ -134,6 +137,7 @@
                 android:layout_marginLeft="6.74dp"
                 />
             <EditText
+                android:inputType="number"
                 android:layout_weight="2"
                 android:id="@+id/email_code_edit4"
                 android:layout_width="42dp"
@@ -145,6 +149,7 @@
                 android:layout_marginLeft="6.74dp"
                 />
             <EditText
+                android:inputType="number"
                 android:layout_weight="2"
                 android:id="@+id/email_code_edit5"
                 android:layout_width="42dp"
@@ -156,6 +161,7 @@
                 android:layout_marginLeft="6.74dp"
                 />
             <EditText
+                android:inputType="number"
                 android:layout_weight="2"
                 android:id="@+id/email_code_edit6"
                 android:layout_width="42dp"

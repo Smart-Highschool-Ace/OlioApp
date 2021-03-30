@@ -28,10 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/dialog/EmailModalDialog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/dialog/EmailModalViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/myModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/myModule.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/dialog_email_modal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/dialog_email_modal.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +70,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/presenter/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/presenter/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
