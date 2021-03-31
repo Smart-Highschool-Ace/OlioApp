@@ -29,6 +29,9 @@
   <component name="ChangeListManager">
     <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/view/activity/RegisterActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/RegisterViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/viewmodel/activity/RegisterViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/activity_register.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/src/main/res/layout/dialog_email_modal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/res/layout/dialog_email_modal.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

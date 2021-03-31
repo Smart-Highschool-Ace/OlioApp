@@ -14,6 +14,7 @@ class RegisterViewModel : BaseViewModel() {
     val onFailureEvent = SingleLiveEvent<Unit>()
     val onGoSignUpEvent = SingleLiveEvent<Unit>()
     val onRegisterEvent = SingleLiveEvent<Unit>()
+    val onShowEvent = SingleLiveEvent<Unit>()
 
     //region 회원가입
     fun register(){
@@ -24,6 +25,10 @@ class RegisterViewModel : BaseViewModel() {
         }, 2000)
     }
     //endregion
+
+    fun showDialog(){
+        onShowEvent.call()
+    }
 
     fun goSignUp(){
         onGoSignUpEvent.call()

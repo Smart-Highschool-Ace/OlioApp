@@ -6,6 +6,7 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 import org.software.meister.gsm.olio.R
 import org.software.meister.gsm.olio.base.BaseActivity
 import org.software.meister.gsm.olio.databinding.ActivityRegisterBinding
+import org.software.meister.gsm.olio.view.dialog.EmailModalDialog
 import org.software.meister.gsm.olio.viewmodel.activity.RegisterViewModel
 import org.software.meister.gsm.olio.widget.extention.startActivityWithFinish
 
@@ -34,6 +35,9 @@ class RegisterActivity : BaseActivity<RegisterViewModel, ActivityRegisterBinding
             })
             onRegisterEvent.observe(this@RegisterActivity, {
                 showLoadingDialog()
+            })
+            onShowEvent.observe(this@RegisterActivity, {
+                EmailModalDialog().show(supportFragmentManager, "RegisterActivity")
             })
         }
     }
