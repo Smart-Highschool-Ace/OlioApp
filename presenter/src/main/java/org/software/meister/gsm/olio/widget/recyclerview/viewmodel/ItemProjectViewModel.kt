@@ -13,8 +13,7 @@ class ItemProjectViewModel : BaseViewModel() {
     fun bind(item : Project){
         name.value = item.name
         viewer.value = item.view.toString()
-        contributorName.value = item.contributor
-        projectComment.value = item.comment
+        contributorName.value = item.members[0].member.name
     }
 
 }
