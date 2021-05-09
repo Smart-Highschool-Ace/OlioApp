@@ -14,12 +14,18 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Olio">
-        <activity android:name=".view.activity.FirstLoginActivity"/>
-        <activity android:name=".view.activity.LoginActivity"/>
-        <activity android:name=".view.activity.MainActivity"/>
-        <activity android:name=".view.activity.GuideActivity"/>
-        <activity android:name=".view.activity.RegisterActivity"/>
-        <activity android:name=".view.activity.SplashActivity">
+        <activity android:name=".view.activity.FirstLoginActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".view.activity.LoginActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".view.activity.MainActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".view.activity.GuideActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".view.activity.RegisterActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".view.activity.SplashActivity"
+            android:windowSoftInputMode="adjustNothing" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

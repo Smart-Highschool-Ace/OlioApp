@@ -8,7 +8,7 @@ import org.software.meister.gsm.olio.viewmodel.fragment.*
 import org.software.meister.gsm.olio.viewmodel.fragment.stack.*
 import org.software.meister.gsm.olio.widget.recyclerview.viewmodel.*
 
-val viewModels = module{
+val viewModules = module{
     viewModel { SplashViewModel() }
     viewModel { RegisterViewModel() }
     viewModel { LoginViewModel() }
