@@ -28,14 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52699f80-f073-4eb9-b1d3-0ad64442e928" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/graphql/org.software/meister/gsm/olio/schema.json.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/networkModules.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presenter/src/main/graphql/org.software/meister/gsm/olio/skillSearch.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presenter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/myModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/di/viewModules.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/src/main/java/org/software/meister/gsm/olio/widget/MyApplication.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,7 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="GraphQL File" />
       </list>
     </option>
   </component>
@@ -77,7 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/presenter/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AndroidStudioProjects/GraphQLExample" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -88,20 +84,11 @@
       <recent name="org.software.meister.gsm.olio.view.activity" />
       <recent name="org.software.meister.gsm.olio" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
-      <recent name="C:\Users\s2000\AndroidStudioProjects\OlioApp\presenter\src\main\res\drawable-v24" />
-      <recent name="C:\Users\s2000\AndroidStudioProjects\OlioApp\presenter\src\main\res\font" />
-      <recent name="C:\Users\s2000\AndroidStudioProjects\Olio\presenter\src\main\res\drawable-v24" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="org.software.meister.gsm.olio.network.dto.project" />
       <recent name="org.software.meister.gsm.olio.network.dto.portfolio" />
       <recent name="org.software.meister.gsm.olio.viewmodel.activity" />
       <recent name="org.software.meister.gsm.olio.view.activity" />
-    </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="org.software.meister.gsm.olio.widget" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
@@ -109,6 +96,16 @@
       <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\widget" />
       <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\di" />
       <recent name="C:\Olio\OlioApp\presenter\src\main\java\org\software\meister\gsm\olio\base" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.software.meister.gsm.olio.widget" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Olio\OlioApp\presenter\src\main\graphql\org.software\meister\gsm\olio" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\graphql\org.software\meister\gsm" />
+      <recent name="C:\Olio\OlioApp\presenter\src\main\res\drawable" />
+      <recent name="C:\Users\s2000\AndroidStudioProjects\OlioApp\presenter\src\main\res\drawable-v24" />
+      <recent name="C:\Users\s2000\AndroidStudioProjects\OlioApp\presenter\src\main\res\font" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.presenter">
@@ -298,11 +295,11 @@
     <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1614728154769" />
     <state x="436" y="211" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616552564081" />
     <state x="436" y="211" key="AndroidCreateResourceFileDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613888135251" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620054512578">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620568480670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620054512578" />
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619271087055" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620568480670" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620547303185" />
     <state x="722" y="225" key="Github.ShareDialog" timestamp="1613746219486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
